@@ -15,14 +15,13 @@ body {
   
 }
 h3, h2, h4, .tabs li, .navbar-default .navbar-nav > li > a, strong, .sticky-signup p {
-  /*font-family: 'MyriadPro_Bold';*/
+
 }
-.cta, .section-results h3, .section-faq .faq-item h3, .sticky-signup p {
-  font-weight: 700;
-}
+
 h1,h3, h2, h4, .tabs li, .navbar-default .navbar-nav > li > a, strong, .sticky-signup p,.btn {
   font-family: 'Yeseva One', cursive;
 }
+section h3 { font-family: 'Playfair Display', serif;}
 .cta, .section-results h3, .section-faq .faq-item h3, .sticky-signup p {
 }
 p {
@@ -64,13 +63,14 @@ h2 {
   border-bottom:3px solid #fff;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #fff;
-  font-size: 14px;
-  position: relative;
-  top: 1px;
-font-weight:400;
-  text-transform:uppercase;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    top: 1px;
+    font-weight:400;
+    text-transform:uppercase;
     letter-spacing: 3px;
+    font-family: 'Playfair Display', serif;
 }
 .navbar-nav>li.active:after, .navbar-nav>li:hover:after { position:absolute; content:'.'; width: 0;
 height: 0;
