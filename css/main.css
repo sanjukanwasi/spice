@@ -173,6 +173,33 @@ footer.copyright p {
 .section-4 .container { max-width: 900px;}
 .section-4 p { font-style: italic; font-size: 20px; 
 }
+
+.divider-line.line-left {
+    right: 100%;
+    margin-right: 10px;
+}
+
+.divider-line {
+    position: absolute;
+    top: 50%;
+    border-top: 1px solid #000;
+    width: 190px;
+}
+
+.divider-line.line-right {
+    left: 100%;
+    margin-left: 10px;
+}
+
+.divider-inner {
+    position: relative;
+    display: inline-block;
+}
+.dine-divider {
+    overflow: hidden;
+    text-align: center;
+    font-size: 14px;
+}
 /*-------------- Media Query --------------*/
 
 @media (max-width:991px) {
