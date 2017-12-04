@@ -17,13 +17,12 @@ body {
 h3, h2, h4, .tabs li, .navbar-default .navbar-nav > li > a, strong, .sticky-signup p {
 
 }
-
-h1,h3, h2, h4, .tabs li, .navbar-default .navbar-nav > li > a, strong, .sticky-signup p,.btn {
-  font-family: 'Yeseva One', cursive;
+h1 { font-family: 'Yeseva One', cursive;}
+h2 { font-weight: 700;}
+h1,h3, h2, h4, .tabs li, .navbar-default .navbar-nav > li > a, strong, .sticky-signup p,.btn,.entry-content p,.price, .section-4 {
+font-family: 'Playfair Display', serif;
 }
-section h3 { font-family: 'Playfair Display', serif;}
-.cta, .section-results h3, .section-faq .faq-item h3, .sticky-signup p {
-}
+section h3, .btn { font-family: 'Playfair Display', serif;}
 p {
   font-size: 16px;
 }
@@ -81,7 +80,8 @@ border-color: transparent transparent #ffffff transparent; bottom:-4px; left:50%
   color: #fff !important;
   background: none;
 }
-/*Mobile Nav*/
+
+/*-------------- Mobile Nav --------------*/
 .navbar-default .navbar-toggle .icon-bar {
   background: #000;
 }
@@ -144,21 +144,36 @@ footer.copyright p {
   display: none;
 }
 .banner { background: #000; position:relative; max-height:600px; overflow:hidden;}
-.banner-img {opacity: .8;}
+.banner-img {opacity: 0.8;}
 .banner-img img { width: 100%; height: auto;}
-.banner-content { position:absolute; top:0;right:0
-}
+.banner-content { position:absolute; top:0;right:0;}
 .banner-content h1 { font-size:48px;}
 .text-inside { position:absolute; right:30px; top:15%; max-width:500px; color:#fff; }
 .btn { background:#c50e12; color:#fff; letter-spacing:1px; padding:10px 20px; border:2px solid #fff; margin-top:10px;}
 .btn:hover { color:#fff;}
 
 
-.section { padding:100px 0;}
+.section { padding:100px 0; position: relative;}
 .section-1 .container { max-width: 1000px;}
 .section-1 h3 { }
 .section-1 h3 span { padding-right:15px; position:relative; top:-5px;}
-/**************/
+
+.section-overlay { background: #fff; position: absolute; width: 100%; height: 100%; top: 0; left: 0; opacity: .8}
+.section-2 { background: #fff url(../images/menu-bg.jpg) no-repeat center top; min-height: 500px; background-size: cover; color: #333;}
+.entry-content { text-align: center; position: relative; z-index: 9999; margin: -40px 0 50px;}
+.entry-content h2 { color: #c50e12;}
+.entry-content h2 span { color: #000;}
+.entry-content p { font-size: 24px;}
+.section-2 .item { position: relative; border-bottom: 1px dashed #d2c2c3;}
+.section-2 .price { position: absolute; right: 0; top: 15px; font-size: 20px;}
+.section-2 .item h4 { font-size: 20px; color: #c50e12;}
+
+
+.section-4 { background: url(../images/section-4.jpg) no-repeat 0 0; min-height: 200px; text-align: center; color: #fff;}
+.section-4 .container { max-width: 900px;}
+.section-4 p { font-style: italic; font-size: 20px; 
+}
+/*-------------- Media Query --------------*/
 
 @media (max-width:991px) {
 .navbar-header {
