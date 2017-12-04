@@ -1,0 +1,225 @@
+/*!
+ * MayBank v1
+ */ 
+body {
+	  font-family: 'Poppins', sans-serif;
+     /*
+
+	 font-family: "Yanone Kaffeesatz", Arial, Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-family: 'Amarante', cursive;
+    "Roboto Slab", Arial, Tahoma, sans-serif
+    */
+  
+}
+h3, h2, h4, .tabs li, .navbar-default .navbar-nav > li > a, strong, .sticky-signup p {
+  /*font-family: 'MyriadPro_Bold';*/
+}
+.cta, .section-results h3, .section-faq .faq-item h3, .sticky-signup p {
+  font-weight: 700;
+}
+h1,h3, h2, h4, .tabs li, .navbar-default .navbar-nav > li > a, strong, .sticky-signup p,.btn {
+  font-family: 'Yeseva One', cursive;
+}
+.cta, .section-results h3, .section-faq .faq-item h3, .sticky-signup p {
+}
+p {
+  font-size: 16px;
+}
+a, a:focus {
+  color: #ffc500;
+  outline: 0;
+}
+a:hover {
+  color: inherit
+}
+h3 {
+  font-size: 26px;
+}
+h4 {
+  font-size: 26px;
+}
+h2 {
+  font-size: 52px;
+}
+
+/*Logo*/
+.navbar-brand {
+    padding: 10px 0 0;
+    max-width: 210px;
+    display:inline-block;
+    overflow: hidden;
+    height: auto;
+}
+.navbar-brand img {
+  width: 100%;
+  height: auto;
+}
+/*Navbar*/
+.navbar-default {
+  background:#c50e12;
+  border: 0;
+  border-bottom:3px solid #fff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+  top: 1px;
+font-weight:400;
+  text-transform:uppercase;
+    letter-spacing: 3px;
+}
+.navbar-nav>li.active:after, .navbar-nav>li:hover:after { position:absolute; content:'.'; width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 10px 10px 10px;
+border-color: transparent transparent #ffffff transparent; bottom:-4px; left:50%; margin-left:-10px;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  color: #fff !important;
+  background: none;
+}
+/*Mobile Nav*/
+.navbar-default .navbar-toggle .icon-bar {
+  background: #000;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form, .navbar-default .navbar-collapse.in li {
+  border-color: #eab505;
+}
+.navbar-nav {
+  margin-top: 14px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.navbar { min-height: 70px;}
+/*Footer*/
+footer.copyright {
+  padding: 12px 0 0;
+  background: #efefef;
+}
+footer.copyright p {
+  font-size: 14px;
+}
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+  margin-right: 4px;
+  margin-left: 0;
+}
+.navbar-toggle:hover {
+  background: transparent !important;
+}
+.navbar-toggle .icon-bar {
+  width: 26px;
+  transition: all 0.2s;
+  height: 3px;
+  border-radius: 3px;
+}
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+.hidden-all {
+  display: none;
+}
+.mobile-only {
+  display: none;
+}
+.banner { background: #000; position:relative; max-height:600px; overflow:hidden;}
+.banner-img {opacity: .8;}
+.banner-img img { width: 100%; height: auto;}
+.banner-content { position:absolute; top:0;right:0
+}
+.banner-content h1 { font-size:48px;}
+.text-inside { position:absolute; right:30px; top:15%; max-width:500px; color:#fff; }
+.btn { background:#c50e12; color:#fff; letter-spacing:1px; padding:10px 20px; border:2px solid #fff; margin-top:10px;}
+.btn:hover { color:#fff;}
+
+
+.section { padding:100px 0;}
+.section-1 .container { max-width: 1000px;}
+.section-1 h3 { }
+.section-1 h3 span { padding-right:15px; position:relative; top:-5px;}
+/**************/
+
+@media (max-width:991px) {
+.navbar-header {
+  float: none;
+}
+.navbar-left, .navbar-right {
+  float: none !important;
+}
+.navbar-toggle {
+  display: block;
+}
+.navbar-collapse {
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+}
+.navbar-collapse.collapse {
+  display: none!important;
+}
+.navbar-nav {
+  float: none!important;
+}
+.navbar-nav>li {
+  float: none;
+}
+.navbar-nav>li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.collapse.in {
+  display: block !important;
+}
+.navbar-default .navbar-nav > li > a {
+  font-size: 16px;
+}
+.navbar-brand {
+  padding: 8px 15px;
+}
+.navbar-default .navbar-collapse li {
+  border-bottom: 1px solid #eab505;
+}
+
+}
+@media (max-width:767px) {
+p {
+  line-height: normal;
+  font-size: 16px;
+}
+h2 {
+  font-size: 30px;
+}
+
+.mobile-only {
+  display: block;
+}
+.desktop-only {
+  display: none;
+}
+
+}
+
