@@ -2,7 +2,7 @@
  * MayBank v1
  */ 
 body {
-	 font-family: 'Playfair Display', serif;
+	 font-family:  "Roboto Slab", Arial, Tahoma, sans-serif;
      /*
 
 	 font-family: "Yanone Kaffeesatz", Arial, Tahoma, sans-serif;
@@ -14,10 +14,9 @@ body {
     */
   font-size:14px;
 }
-h3, h2, h4, .tabs li, .navbar-default .navbar-nav > li > a, strong, .sticky-signup p {
-}
+
 h2 { font-weight: 700; font-size:42px;}
-h1,h3, h2, h4, .tabs li, .navbar-default .navbar-nav > li > a, strong, .sticky-signup p,.btn,.entry-content p,.price, .section-4 {
+h1,h3, h2, h4, .tabs li, .navbar-default .navbar-nav > li > a, strong, .sticky-signup p,.btn,.entry-content p, .section-4 {
 font-family: 'Playfair Display', serif;
 }
 section h3, .btn { font-family: 'Playfair Display', serif;}
@@ -30,6 +29,7 @@ a:hover {
 }
 h3 {
   font-size: 26px;
+  font-weight:700;
 }
 h4 {
   font-size: 26px;
@@ -159,7 +159,7 @@ footer.copyright p {
 .entry-content h2 { color: #c50e12;}
 .entry-content h2 span { color: #000;}
 .entry-content p { font-size: 22px;}
-.section-2 .item { position: relative; border-bottom: 1px dashed #d2c2c3;}
+.section-2 .item { position: relative; border-bottom: 1px solid #efefef;}
 .section-2 .price { position: absolute; right: 0; top: 15px; font-size: 20px;}
 .section-2 .item h4 { font-size: 14px; color: #000; text-transform:uppercase; font-weight:700; margin-bottom:2px}
 .section-2 .item p { color:#5a5a5a}
@@ -167,13 +167,18 @@ footer.copyright p {
 .menu-tabs li { display:inline-block; list-style:none; margin:0 5px;}
 .menu-tabs li a { letter-spacing:1px; background:#000; border-radius:4px; padding:8px 20px; color:#fff; text-decoration:none !important; display:block; font-weight:700; text-transform:uppercase;}
 .menu-tabs li a:hover, .menu-tabs li.menu-active a{ background:#c50e12}
-.section-4 { background: url(../images/section-4.jpg) no-repeat 0 0; min-height: 200px; text-align: center; color: #fff;}
-.section-4 .container { max-width: 900px;}
-.section-4 p { font-style: italic; font-size: 20px; 
-}
 
+.section-3 h2 span{ display:block; font-size:26px; color:#c50e12;}
+.section-4 { background: url(../images/section-4.jpg) no-repeat 0 0; min-height: 200px; text-align: center; color: #fff; background-size:cover; padding:50px 0;}
+.section-4 .container { max-width: 900px;}
+.section-4 p {  font-size: 20px; 
+}.author-meta { font-size:24px; color:#c50e12}
+.quote { font-size:42px;}
+.h-line { width:75px; height:1px; background:#c50e12;display:inline-block}
+.h-sep i { position:relative; top:4px; color:#c50e12;}
+h3 span { color:#c50e12;}
 .divider-line.line-left {
-    right: 100%;
+    right: 100%;		
     margin-right: 10px;
 }
 
