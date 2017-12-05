@@ -4,7 +4,6 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 <title>Welcome: Spice of India</title>
 <!-- Bootstrap -->
 <!-- Place favicon.ico in the root directory -->
@@ -12,6 +11,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="css/owl.carousel.min.css">
+<linl href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet">
 <link rel="stylesheet" href="css/animate.min.css">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -26,12 +26,8 @@
 	<div class="container"> 
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
-			<span class="icon-bar top-bar"></span> 
-			<span class="icon-bar middle-bar"></span> 
-			<span class="icon-bar bottom-bar"></span> 
-			</button>
-			<a class="navbar-brand page-scroll" href="#"><img src="images/logo-6.png" alt=""></a> </div>	
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button>
+			<a class="navbar-brand page-scroll" href="#"><img src="images/logo-6.png" alt=""></a> </div>
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
@@ -48,161 +44,396 @@
 	</div>
 	<!-- /.container-fluid --> 
 </nav>
+
+<!-- Banner -->    
 <div class="banner">
-<div class="banner-img">
-<img src="images/banner-item-1.jpg" alt="">    
+	<div class="banner-img owl-carousel owl-theme">
+		<div class="item"> <img src="images/banner-item-1.jpg" alt="" class="owl-"> </div>
+		<div class="item"> <img src="images/slide-2.jpg" alt="" class="owl-"> </div>
+		<div class="item"> <img src="images/slide-3.jpg" alt="" class="owl-"> </div>
+		<div class="item"> <img src="images/slide-4.jpg" alt="" class="owl-"> </div>
+	</div>
+	<div class="banner-content"> <img src="images/cover.png">
+		<div class="text-inside">
+			<h1>The Spice Of India!</h1>
+			<p>For authentic and delicious Indian cuisine, be sure to visit The Spice of Indian Restaurant in Huskisson. </p>
+			<a class="btn" href="#menu">View Menus <i class="fa fa-file-text" aria-hidden="true"></i></a> </div>
+	</div>
 </div>
-<div class="banner-content">
-<img src="images/cover.png">
-
-<div class="text-inside">
-<h1>The Spice Of India!</h1> 
-<p>For authentic and delicious Indian cuisine, be sure to visit The Spice of Indian Restaurant in Huskisson. </p>
-<a class="btn" href="#menu">View Menus <i class="fa fa-file-text" aria-hidden="true"></i></a>    
-</div>    
     
-</div>    
-</div>
-<!-- Section 1 -->  
+<!-- Section 1 About -->
 <section id="about" class="section section-1">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-            <h3><span><img src="images/icon-restaurant.png"></span>Restaurant</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-            <br/>
-            <h3 style="color:#c50e12;"><span><img src="images/wine.png"></span>Wine & Cocktails</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-            <br/>
-            <h3><span><img src="images/chef.png"></span>Expert Chefs</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-
-            <a class="btn" href="#menu">Make Reservation <i class="fa fa-clock-o" aria-hidden="true"></i></a> 
-            </div>
-        <div class="col-sm-6">
-            <img src="images/section-1.jpg" alt="">
-        </div>
-        </div>
-    </div>
-</section>  
-    
-<section id="menu" class="section section-2">
-    <div class="section-overlay"></div>    
-<div class="container">
-    <div class="entry-content">
-<h2><span>Restaurant</span> Menus</h2>
-<p>we cook our dishes from the freshest ingredients</p>
-    <div class="dine-divider type-icon divider-icon has-animation running" data-delay="0"><div class="divider-inner"><div class="divider-line line-left" style="border-top-width:1px;margin-top:-1px;"></div><div class="icon-wrapper"><span class="icon"><i class="fa fa-star"></i></span></div><div class="divider-line line-right" style="border-top-width:1px;margin-top:-1px"></div></div></div>    
-  </div>
-<ul class="menu-tabs">
-<li class="menu-active"><a href="#">Breakfast</a></li>
-<li><a href="#">Lunch</a></li>
-<li><a href="#">Dessert</a></li>
-<li><a href="#">Beverages</a></li>
-</ul>  
-<div class="row menu-listing">
-<div class="col-sm-6">
-<div class="menu-item">
-<div class="item">    
-<h4>Gosh Egg-White Omelet</h4>
-<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-<div class="price">$20</div>
-</div> 
-<div class="item">    
-<h4>Gosh Egg-White Omelet</h4>
-<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-<div class="price">$20</div>
-</div>  
-<div class="item">    
-<h4>Gosh Egg-White Omelet</h4>
-<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-<div class="price">$20</div>
-</div>  
-<div class="item">    
-<h4>Gosh Egg-White Omelet</h4>
-<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-<div class="price">$20</div>
-</div>  
-<div class="item">    
-<h4>Gosh Egg-White Omelet</h4>
-<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-<div class="price">$20</div>
-</div>      
-</div>
-</div>    
-<div class="col-sm-6">
-<div class="menu-item">
-<div class="item">    
-<h4>Gosh Egg-White Omelet</h4>
-<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-<div class="price">$20</div>
-</div> 
-<div class="item">    
-<h4>Gosh Egg-White Omelet</h4>
-<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-<div class="price">$20</div>
-</div>  
-<div class="item">    
-<h4>Gosh Egg-White Omelet</h4>
-<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-<div class="price">$20</div>
-</div>  
-<div class="item">    
-<h4>Gosh Egg-White Omelet</h4>
-<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-<div class="price">$20</div>
-</div>  
-<div class="item">    
-<h4>Gosh Egg-White Omelet</h4>
-<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-<div class="price">$20</div>
-</div>      
-</div>    
-</div>     
-</div> 
-
-</div>   
-</section> 
-    
-<section id="offer" class="section section-3">
-<div class="container">
-<div class="entry-title">
-<div class="h-sep"><span class="h-line"></span><i class="fa fa-circle" aria-hidden="true"></i></div>     
-<h2><span>Delight</span>Special Offers.</h2>  
-<br/>
-</div>
-  <div class="row">
-    <div class="col-sm-6">
-        <div class="col-img">
-      <img src="images/special-offers.jpg" alt="" class="img-responsive">
-            </div>
-      </div>
-          <div class="col-sm-6">
-            <img src="images/icon-offer.png" alt="">
-              <h3>Owsome Slow <br/><span>Cooker Rise Post Roast</span></h3>
-              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
-              
-              <a class="btn" href="#">Make Reservation <i class="fa fa-clock-o" aria-hidden="true"></i></a>
-      </div>
-    
-    </div>  
-</div>    
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 wow fadeInUp">
+				<h3><span><img src="images/icon-restaurant.png"></span>Restaurant</h3>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+				<br/>
+				<h3 style="color:#c50e12;"><span><img src="images/wine.png"></span>Wine & Cocktails</h3>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+				<br/>
+				<h3><span><img src="images/chef.png"></span>Expert Chefs</h3>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+				<a class="btn" href="#menu">Make Reservation <i class="fa fa-clock-o" aria-hidden="true"></i></a> </div>
+			<div class="col-sm-6 wow fadeInUp"> <img src="images/section-1.jpg" alt=""> </div>
+		</div>
+	</div>
 </section>
     
+<!-- Section Menu -->    
+<section id="menu" class="section section-2">
+	<div class="section-overlay"></div>
+	<div class="container">
+		<div class="entry-content wow fadeInUp">
+			<h2><span>Restaurant</span> Menus</h2>
+			<p>we cook our dishes from the freshest ingredients</p>
+			<div class="dine-divider type-icon divider-icon has-animation running" data-delay="0">
+				<div class="divider-inner">
+					<div class="divider-line line-left" style="border-top-width:1px;margin-top:-1px;"></div>
+					<div class="icon-wrapper"><span class="icon"><i class="fa fa-star"></i></span></div>
+					<div class="divider-line line-right" style="border-top-width:1px;margin-top:-1px"></div>
+				</div>
+			</div>
+		</div>
+		<ul class="menu-tabs wow fadeInUp">
+			<li class="tab-active"><a href="javascript:void(0);" data-id="breakfast">Breakfast</a></li>
+			<li><a href="javascript:void(0);" data-id="lunch">Lunch</a></li>
+			<li><a href="javascript:void(0);" data-id="dessert">Dessert</a></li>
+			<li><a href="javascript:void(0);" data-id="beverages">Beverages</a></li>
+		</ul>
+        
+		<div class="row menu-listing wow fadeInUp">
+            <!-- menu breakfast -->
+            <div id="breakfast" class="tab-content tab-content-active">
+			<div class="col-sm-6">
+				<div class="menu-item">
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="menu-item">
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+				</div>
+			</div>
+            </div>
+            
+            <!-- menu lunch -->
+            <div id="lunch" class="tab-content">
+			<div class="col-sm-6">
+				<div class="menu-item">
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="menu-item">
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+				</div>
+			</div>
+            </div>
+            
+            <!-- menu dessert -->
+            <div id="dessert" class="tab-content">
+			<div class="col-sm-6">
+				<div class="menu-item">
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="menu-item">
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+				</div>
+			</div>
+            </div>
+            
+            <!-- menu Beverages -->
+            <div id="beverages" class="tab-content">
+			<div class="col-sm-6">
+				<div class="menu-item">
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="menu-item">
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+					<div class="item">
+						<h4>Gosh Egg-White Omelet</h4>
+						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<div class="price">$20</div>
+					</div>
+				</div>
+			</div>
+            </div>
+            
+		</div>
+	</div>
+</section>
+    
+<!-- Section Offer -->    
+<section id="offer" class="section section-3">
+	<div class="container wow fadeInUp">
+		<div class="entry-title">
+			<div class="h-sep"><span class="h-line"></span><i class="fa fa-circle" aria-hidden="true"></i></div>
+			<h2><span>Delight</span>Special Offers.</h2>
+			<br/>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="col-img"> <img src="images/special-offers.jpg" alt="" class="img-responsive"> </div>
+			</div>
+			<div class="col-sm-6"> <img src="images/icon-offer.png" alt="">
+				<h3>Owsome Slow <br/>
+					<span>Cooker Rise Post Roast</span></h3>
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+				<a class="btn" href="#">Make Reservation <i class="fa fa-clock-o" aria-hidden="true"></i></a> </div>
+		</div>
+	</div>
+</section>
+
+<!-- Section Testimonials -->
 <section class="section section-4">
-<div class="container">
-<div class="list-item">
-<div class="item">
-<div class="t-image"></div>
-<div class="quote"><i class="fa fa-quote-left" aria-hidden="true"></i></div>
-<div class="t-description">
-<p>“We enjoy sharing the projects and posts we make just as much as we enjoy creating them. consectetur adipiscing elit, sed do eiusmod tempor incididunt Sit back & take a moment to browse through some of our recent completed work.”</p>
-<div class="author-meta">- Steven smith</div>    
-</div>   
-</div>    
-</div>    
-</div>    
-</section>    
+	<div class="container wow fadeInUp">
+		<div class="list-item">
+			<div class="item">
+				<div class="t-image"></div>
+				<div class="quote"><i class="fa fa-quote-left" aria-hidden="true"></i></div>
+				<div class="t-description testimonials owl-carousel owl-theme">
+					<div>
+						<p>“We enjoy sharing the projects and posts we make just as much as we enjoy creating them. consectetur adipiscing elit, sed do eiusmod tempor incididunt Sit back & take a moment to browse through some of our recent completed work.”</p>
+						<div class="rating"> 
+                            <i class="fa fa-star" aria-hidden="true"></i> 
+                            <i class="fa fa-star" aria-hidden="true"></i> 
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i> 
+                            <i class="fa fa-star-o" aria-hidden="true"></i> 
+                        </div>
+						<div class="author-meta">- Steven smith</div>
+					</div>
+					<div>
+						<p>“We enjoy sharing the projects and posts we make just as much as we enjoy creating them. consectetur adipiscing elit, sed do eiusmod tempor incididunt Sit back & take a moment to browse through some of our recent completed work.”</p>
+                        <div class="rating"> 
+                            <i class="fa fa-star" aria-hidden="true"></i> 
+                            <i class="fa fa-star" aria-hidden="true"></i> 
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i> 
+                            <i class="fa fa-star-o" aria-hidden="true"></i> 
+                        </div>
+						<div class="author-meta">- Steven smith</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Section Reservation -->
+<section class="section section-5">
+	<div class="container wow fadeInUp">
+		<div class="row">
+			<div class="col-sm-6">
+                <div class="h-sep"><span class="h-line"></span><i class="fa fa-circle" aria-hidden="true"></i></div>
+				<h2><span>Make a Online</span>Reservation</h2>
+                <br/>
+				<form>
+					<input type="text" name="FirstName" class="input-text" placeholder="Name">
+					<input type="text" name="contactPhone" class="input-text" placeholder="Contact Number">
+					<input type="email" name="email" class="input-text" placeholder="Email Address">
+					<input type="number" name="attendees" class="input-text" placeholder="Number of People">
+					<input type="email" name="time" class="input-text" placeholder="Time">
+					<input type="text" name="date" class="input-text" placeholder="Date">
+					<input type="submit" name="submit" value="Submit Detail" class="btn">
+				</form>
+			</div>
+			<div class="col-sm-6"><img src="images/reservation.jpg" alt="" class="img-responsive"></div>
+		</div>
+	</div>
+</section>
 <footer class="copyright text-center">
 	<div class="container">
 		<p>Copyright © 2017 Spice of India. All rights reserved.</p>
