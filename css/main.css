@@ -101,7 +101,9 @@ h4 {
 /*Footer*/
 footer.copyright {
   padding: 12px 0 0;
-  background: #efefef;
+  background: #000;
+  color:#5e5e5e;
+  border-top:1px solid #4e4e4e;
 }
 footer.copyright p {
   font-size: 14px;
@@ -192,7 +194,7 @@ footer.copyright p {
   color: #fff;
 }
 .section {
-  padding: 100px 0;
+  padding: 60px 0 80px;
   position: relative;
 }
 .section-1 .container {
@@ -228,7 +230,7 @@ footer.copyright p {
   text-align: center;
   position: relative;
   z-index: 9999;
-  margin: -40px 0 50px;
+  margin: -20px 0 50px;
 }
 .entry-content h2 {
   color: #c50e12;
@@ -347,6 +349,7 @@ h3 span {
   text-align: center;
   font-size: 14px;
 }
+.section-5 { padding-bottom:20px;}
 .section-5 h2 span {
   display: block;
   font-size: 26px;
@@ -355,6 +358,9 @@ h3 span {
 .rating { color: yellow;}
 /* Reservation */
 .input-text { display: block; padding: 10px; border: 1px solid #ccc; width: 100%; margin-bottom: 5px; border-radius: 2px;}
+
+.footer { background:#000; color:#fff; padding:20px 40px; text-align:center;}
+.footer .divider-line { border-color:#fff;}
 /*-------------- Media Query --------------*/
 
 @media (max-width:991px) {
