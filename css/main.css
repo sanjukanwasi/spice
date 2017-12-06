@@ -103,7 +103,7 @@ footer.copyright {
   padding: 12px 0 0;
   background: #000;
   color:#5e5e5e;
-  border-top:1px solid #4e4e4e;
+  border-top:1px solid #232323;
 }
 footer.copyright p {
   font-size: 14px;
@@ -357,7 +357,7 @@ h3 span {
 }
 .rating { color: yellow;}
 /* Reservation */
-.input-text { display: block; padding: 10px; border: 1px solid #ccc; width: 100%; margin-bottom: 5px; border-radius: 2px;}
+.input-text { display: block; padding: 10px; border: 1px solid #ccc; width: 100%; margin-bottom: 8px; border-radius: 2px;}
 
 .footer { background:#000; color:#fff; padding:20px 40px; text-align:center;}
 .footer .divider-line { border-color:#fff;}
