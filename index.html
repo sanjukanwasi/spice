@@ -11,7 +11,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="css/owl.carousel.min.css">
-<linl href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+<linl rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css" >
 <link href="css/main.css" rel="stylesheet">
 <link rel="stylesheet" href="css/animate.min.css">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -22,7 +22,7 @@
     <![endif]-->
 </head>
 <body>
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top">
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
 	<div class="container"> 
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
@@ -46,7 +46,7 @@
 </nav>
 
 <!-- Banner -->    
-<div class="banner">
+<div id="top" class="banner">
 	<div class="banner-img owl-carousel owl-theme">
 		<div class="item"> <img src="images/banner-item-1.jpg" alt="" class="owl-"> </div>
 		<div class="item"> <img src="images/slide-2.jpg" alt="" class="owl-"> </div>
@@ -65,17 +65,24 @@
 <section id="about" class="section section-1">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6 wow fadeInUp">
-				<h3><span><img src="images/icon-restaurant.png"></span>Restaurant</h3>
-				<p>Takeout, Reservations, Seating, Waitstaff, Serves Alcohol, Wheelchair Accessible</p>
+			<div class="col-sm-6">
+			<div class="wow fadeInUp">
+				<h3><span class="flaticon-meat"></span>Restaurant</h3>
+				<p>At Spice of India Restaurant, we offer both BYO and takeaway services—so bring along your favourite bottle to enjoy next to a delicious dish of curry, or takeaway your favourite meal to enjoy in the comfort of your own home. </p>
+				</div>
 				<br/>
-				<h3 style="color:#c50e12;"><span><img src="images/wine.png"></span>Wine & Cocktails</h3>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+				<div class="wow fadeInUp">
+				<h3 style="color:#c50e12;"><span class="flaticon-dinner"></span>Wine & Cocktails</h3>
+				<p>Enticing cocktails, refined wines, eclectic import beers — Spice of india is downtown Vancouver’s enclave for connoisseurs of wines and spirits seeking a sanctuary that caresses the eye as well as the palate. From the finest charcuterie, to artisan cheeses, hard-to-find wine selections to hand-crafted cocktails, yet relaxed atmosphere.
+​</p></div>
 				<br/>
-				<h3><span><img src="images/chef.png"></span>Expert Chefs</h3>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+				<div class="wow fadeInUp">
+				<h3><span class="flaticon-waiter"></span>Expert Chefs</h3>
+				<p>Our friendly chefs work with the freshest of ingredients to ensure your tastebuds stay satisfied through the duration of your meal. Step inside our popular Huskisson restaurant and relax as our welcoming staff serve you up a meal to remember.</p>
+				<p>For more information about our unique menu options, pop-in and say hello to our friendly team today! </p>
 				<a class="btn page-scroll" href="#menu">Make Reservation <i class="fa fa-clock-o" aria-hidden="true"></i></a> </div>
-			<div class="col-sm-6 wow fadeInUp"> <img src="images/section-1.jpg" alt=""> </div>
+				</div>
+			<div class="col-sm-6 wow fadeIn"><img src="images/section-1.jpg" alt=""> </div>
 		</div>
 	</div>
 </section>
@@ -96,10 +103,12 @@
 			</div>
 		</div>
 		<ul class="menu-tabs wow fadeInUp">
-			<li class="tab-active"><a href="javascript:void(0);" data-id="breakfast">Breakfast</a></li>
-			<li><a href="javascript:void(0);" data-id="lunch">Lunch</a></li>
-			<li><a href="javascript:void(0);" data-id="dessert">Dessert</a></li>
-			<li><a href="javascript:void(0);" data-id="beverages">Beverages</a></li>
+			<li class="tab-active"><a href="javascript:void(0);" data-id="breakfast">Entrees</a></li>
+			<li><a href="javascript:void(0);" data-id="lunch">Curries</a></li>
+			<li><a href="javascript:void(0);" data-id="dessert">Chicken</a></li>
+			<li><a href="javascript:void(0);" data-id="beverages">Lamb</a></li>
+			<li><a href="javascript:void(0);" data-id="beverages">Beef</a></li>
+			<li><a href="javascript:void(0);" data-id="beverages">Seafood</a></li>
 		</ul>
         
 		<div class="row menu-listing wow fadeInUp">
@@ -357,18 +366,18 @@
     
 <!-- Section Offer -->    
 <section id="offer" class="section section-3">
-	<div class="container wow fadeInUp">
+	<div class="container">
 		<div class="entry-title">
 			<div class="h-sep"><span class="h-line"></span><i class="fa fa-circle" aria-hidden="true"></i></div>
 			<h2><span>Delight</span>Our Specials</h2>
 			<br/>
 		</div>
 		<div class="row">
-			<div class="col-sm-6">
+			<div class="col-sm-6 wow fadeInLeft">
 				<div class="col-img"> <img src="images/special-offers.jpg" alt="" class="img-responsive"> </div>
 			</div>
-			<div class="col-sm-6"> <img src="images/icon-offer.png" alt="">
-				<h3><span>Weekend of Tasting and Feasting</span></h3>
+			<div class="col-sm-6 wow fadeIn"><span class="flaticon-salver"></span>
+				<h3>Weekend of Tasting and Feasting</h3>
 				<p>The Spice of Indian restuarant are cooking up some tasty dishes this weekend for the event " A weekend of feasting and tasting" on May 19th, 20th and 21st.</p>
 				<p><strong>Our specials will include:</strong></p>
 				<ul>
@@ -384,7 +393,7 @@
 </section>
 
 <!-- Section Testimonials -->
-<section class="section section-4">
+<section id="testimonials" class="section section-4">
 	<div class="container wow fadeInUp">
 		<div class="list-item">
 			<div class="item">
@@ -433,9 +442,9 @@
 
 <!-- Section Reservation -->
 <section id="reservation" class="section section-5">
-	<div class="container wow fadeInUp">
+	<div class="container">
 		<div class="row">
-			<div class="col-sm-6">
+			<div class="col-sm-6 wow fadeIn">
                 <div class="h-sep"><span class="h-line"></span><i class="fa fa-circle" aria-hidden="true"></i></div>
 				<h2><span>Make a</span>Reservation</h2>
                 <br/>
@@ -449,7 +458,7 @@
                     <button type="submit" name="submit" class="btn">Submit Request <i class="fa fa-calendar-plus-o" aria-hidden="true"></i></button>
 				</form>
 			</div>
-			<div class="col-sm-6"><img src="images/reservation.jpg" alt="" class="img-responsive"></div>
+			<div class="col-sm-6 wow fadeInUp"><img src="images/reservation.jpg" alt="" class="img-responsive"></div>
 		</div>
 	</div>
 </section>
@@ -457,6 +466,7 @@
 <section id="contact" class="section footer">
 <div class="container">
 <div class="col-sm-6">
+<div class="wow fadeInUp">
 <h3>Restaurant Address</h3>
 			<div class="dine-divider type-icon divider-icon has-animation running" data-delay="0">
 				<div class="divider-inner">
@@ -470,7 +480,9 @@
 Phone: +61 2 4441 7775
 </p>
 </div>
+</div>
 <div class="col-sm-6">
+<div class="wow fadeInUp">
 <h3>Restaurant Hours</h3>
 			<div class="dine-divider type-icon divider-icon has-animation running" data-delay="0">
 				<div class="divider-inner">
@@ -483,6 +495,7 @@ Phone: +61 2 4441 7775
 Sunday - Saturday<br/>
 5:00 PM - 10:00 PM
 </p>
+</div>
 </div>
 </div>
 </section>
