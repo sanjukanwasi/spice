@@ -1,5 +1,5 @@
 /*!
- * MayBank v1
+ * Spice v1
  */ 
  
 @font-face {
@@ -35,7 +35,7 @@ margin-left: 20px;
 .flaticon-waiter:before { content: "\f104"; }
  
 body {
-  font-family: "Roboto Slab", Arial, Tahoma, sans-serif;
+  font-family: "Roboto", Arial, Tahoma, sans-serif;
   /*
 
 	 font-family: "Yanone Kaffeesatz", Arial, Tahoma, sans-serif;
@@ -46,15 +46,17 @@ body {
     "Roboto Slab", Arial, Tahoma, sans-serif
     */
   font-size: 14px;
+  letter-spacing:.5px;
+  color:#333;
 }
 h2 {
   font-weight: 700;
   font-size: 42px;
 }
-h1, h3, h2, h4, .tabs li, .navbar-default .navbar-nav > li > a, strong, .sticky-signup p, .btn, .entry-content p, .section-4 {
+h1, h3, h2, .tabs li, .navbar-default .navbar-nav > li > a, strong, .sticky-signup p, .btn, .entry-content p, .section-4 {
   font-family: 'Playfair Display', serif;
 }
-section h3, .btn, .menu-tabs li a,.input-text  {
+section h3, .btn,.input-text  {
   font-family: 'Playfair Display', serif;
 }
 a, a:focus {
@@ -119,15 +121,15 @@ h4 {
 }
 /*-------------- Mobile Nav --------------*/
 .navbar-default .navbar-toggle .icon-bar {
-  background: #000;
+  background: #fff;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form, .navbar-default .navbar-collapse.in li {
-  border-color: #eab505;
+  border-color: ##cc3718;
 }
 .navbar-nav {
   margin-top: 14px;
   margin-bottom: 0;
-  text-align: center;
+  text-align: left;
 }
 .navbar {
   min-height: 70px;
@@ -148,6 +150,7 @@ footer.copyright p {
   background: transparent !important;
   margin-right: 4px;
   margin-left: 0;
+    margin-top: 13px;
 }
 .navbar-toggle:hover {
   background: transparent !important;
@@ -280,20 +283,28 @@ footer.copyright p {
 }
 .section-2 .item {
   position: relative;
-  border-bottom: 1px solid #efefef;
 }
+.section-2 .item:after { border-bottom:2px dotted #333; position:absolute; left:0; top:18px; content:""; width:100%;}
 .section-2 .price {
   position: absolute;
   right: 0;
-  top: 15px;
-  font-size: 20px;
+  top: 10px;
+  font-size: 14px;
+  font-weight:700;
+  background:#faf8f3;
+  z-index:99;
+  padding-left:4px;
 }
 .section-2 .item h4 {
-  font-size: 14px;
+  font-size: 16px;
   color: #000;
-  text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 2px
+  margin-bottom: 2px;
+  display:inline-block;
+  background:#fdfbf6;
+  position:relative;
+  z-index:99;
+  padding-right:4px;
 }
 .section-2 .item p {
   color: #5a5a5a
@@ -301,11 +312,12 @@ footer.copyright p {
 .menu-tabs {
   margin: -20px 0 40px;
   text-align: center;
+    padding: 0;
 }
 .menu-tabs li {
   display: inline-block;
   list-style: none;
-  margin: 0 5px;
+  margin: 0 2px;
 }
 .menu-tabs li a {
   letter-spacing: 1px;
@@ -315,8 +327,6 @@ footer.copyright p {
   color: #fff;
   text-decoration: none !important;
   display: block;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 .menu-tabs li a:hover, .menu-tabs li.tab-active a {
   background: #c50e12
@@ -404,9 +414,12 @@ h3 span {
 /*-------------- Media Query --------------*/
 
 @media (max-width:991px) {
+    
+.navbar { min-height: 60px; background: rgba(197, 14, 18, .9)}    
 .navbar-header {
   float: none;
 }
+.navbar-nav>li.active:after, .navbar-nav>li:hover:after { transform: rotate(90deg); right: 15px; top:15px; left:auto; bottom: auto; border-width: 0 8px 8px 8px;}    
 .navbar-left, .navbar-right {
   float: none !important;
 }
@@ -444,7 +457,7 @@ h3 span {
   padding: 8px 15px;
 }
 .navbar-default .navbar-collapse li {
-  border-bottom: 1px solid #eab505;
+  border-bottom: 1px solid #cc3718;
 }
 }
 @media (max-width:767px) {
@@ -461,4 +474,15 @@ h2 {
 .desktop-only {
   display: none;
 }
+.section { padding: 20px 0 40px}  
+.col-content { padding-bottom: 30px;}
+.menu-tabs li { margin-bottom: 10px;}
+.menu-tabs li a {padding: 5px 15px;}
+
+.text-inside, .banner-content { position: static;}
+.text-inside {padding: 0 15px 30px;}
+.banner { background: #c50e12;}
+.banner-content img { display: none;}
+.banner-content p { font-size: 16px;}
+.banner-content h1 { font-size: 32px;}
 }

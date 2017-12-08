@@ -5,7 +5,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Welcome: Spice of India</title>
-<!-- Bootstrap -->
+
+<meta property="og:url" content="http://www.spiceofindia.com" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Spice of India" />
+<meta property="og:description" accesskey=""content="For authentic and delicious Indian cuisine, be sure to visit The Spice of Indian Restaurant in Huskisson." />
+<meta property="og:image" content="http://practice-solution.com/devsmb/spice_v1/images/special-offers.jpg" />
+
 <!-- Place favicon.ico in the root directory -->
 <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Amarante|Poppins:100,100i,200,200i,300,400,400i,500,500i,600,600i,700,800|Stint+Ultra+Condensed|Prata|Roboto+Slab:300,400,700|Yeseva+One|Playfair+Display:400,400i,700,700i,900|Roboto:100,100i,300,400,400i,500,700" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
@@ -66,6 +72,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6">
+			<div class="col-content">
 			<div class="wow fadeInUp">
 				<h3><span class="flaticon-meat"></span>Restaurant</h3>
 				<p>At Spice of India Restaurant, we offer both BYO and takeaway services—so bring along your favourite bottle to enjoy next to a delicious dish of curry, or takeaway your favourite meal to enjoy in the comfort of your own home. </p>
@@ -82,7 +89,8 @@
 				<p>For more information about our unique menu options, pop-in and say hello to our friendly team today! </p>
 				<a class="btn page-scroll" href="#menu">Make Reservation <i class="fa fa-clock-o" aria-hidden="true"></i></a> </div>
 				</div>
-			<div class="col-sm-6 wow fadeIn"><img src="images/section-1.jpg" alt=""> </div>
+				</div>
+			<div class="col-sm-6 wow fadeIn"><img src="images/section-1.jpg" alt="" class="img-responsive"> </div>
 		</div>
 	</div>
 </section>
@@ -93,7 +101,7 @@
 	<div class="container">
 		<div class="entry-content wow fadeInUp">
 			<h2><span>Restaurant</span> Menus</h2>
-			<p>we cook our dishes from the freshest ingredients</p>
+			<p>We cook our dishes from the freshest ingredients</p>
 			<div class="dine-divider type-icon divider-icon has-animation running" data-delay="0">
 				<div class="divider-inner">
 					<div class="divider-line line-left" style="border-top-width:1px;margin-top:-1px;"></div>
@@ -103,9 +111,9 @@
 			</div>
 		</div>
 		<ul class="menu-tabs wow fadeInUp">
-			<li class="tab-active"><a href="javascript:void(0);" data-id="breakfast">Entrees</a></li>
-			<li><a href="javascript:void(0);" data-id="lunch">Curries</a></li>
-			<li><a href="javascript:void(0);" data-id="dessert">Chicken</a></li>
+			<li class="tab-active"><a href="javascript:void(0);" data-id="entrees">Entrees</a></li>
+			<li><a href="javascript:void(0);" data-id="curries">Curries</a></li>
+			<li><a href="javascript:void(0);" data-id="chicken">Chicken</a></li>
 			<li><a href="javascript:void(0);" data-id="lamb">Lamb</a></li>
 			<li><a href="javascript:void(0);" data-id="beef">Beef</a></li>
 			<li><a href="javascript:void(0);" data-id="seafood">Seafood</a></li>
@@ -113,33 +121,33 @@
         
 		<div class="row menu-listing wow fadeInUp">
             <!-- menu Entrees -->
-            <div id="breakfast" class="tab-content tab-content-active">
+            <div id="entrees" class="tab-content tab-content-active">
 			<div class="col-sm-6">
 				<div class="menu-item">
 					<div class="item">
 						<h4>Onion Bhaji</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-						<div class="price">$17.50</div>
+						<p>Fritters of onions & vegetables with chickpea flaour, serve with a mint sauce</p>
+						<div class="price">$8.50</div>
 					</div>
 					<div class="item">
 						<h4>Chicken Pakora</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-						<div class="price">$17.50</div>
+						<p>Tender pieces of boneless chicken marinated in a tangy sauce & deep fried</p>
+						<div class="price">$10.50</div>
 					</div>
 					<div class="item">
 						<h4>Prawan Peshwari</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-						<div class="price">$17.50</div>
+						<p>Fresh prawans marinated in yoghurt and spice then coated with garam flour & fried</p>
+						<div class="price">$14.50</div>
 					</div>
 					<div class="item">
 						<h4>Chicken Tikka</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-						<div class="price">$17.50</div>
+						<p>Tender morsels of bonless chicken marinated overnight & smoke roasted</p>
+						<div class="price">$10.50 / 20.50</div>
 					</div>
 					<div class="item">
 						<h4>Fish Tikka Rampuri</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-						<div class="price">$17.50</div>
+						<p>Boneless nile perch fish marinated in yoghurt and mild spice, deep fried & served with a mint sauce </p>
+						<div class="price">$14.50 / 24.50</div>
 					</div>
 				</div>
 			</div>
@@ -147,55 +155,50 @@
 				<div class="menu-item">
 					<div class="item">
 						<h4>Seekh Kebab</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-						<div class="price">$17.50</div>
+						<p>A delecate blend of finely minced mutton,cloved and cinnamon carefully skewered, char grilled & then drizzled with saffron</p>
+						<div class="price">$9.50 / 19.50</div>
 					</div>
 					<div class="item">
 						<h4>Royal Platter</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-						<div class="price">$17.50</div>
+						<p>For 2 or more people. A well balanced combination of entrees - Chicken Tikka, Fish Tikka, Seekh Kebab & Onion Bhaji   </p>
+						<div class="price">$19.90</div>
 					</div>
 					<div class="item">
 						<h4>Vegitable Somosas</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-						<div class="price">$17.50</div>
+						<p>Spice mixed vegetables filled in pastry pocket and served with a mint sauce</p>
+						<div class="price">$8.50</div>
 					</div>
 					<div class="item">
 						<h4>Spring Rolls</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-						<div class="price">$17.50</div>
-					</div>
-					<div class="item">
-						<h4>Gosh Egg-White Omelet</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-						<div class="price">$17.50</div>
+						<p>Cabbage, onion and peas rolled into a thin pastry, deep fried and served with a mint sauce</p>
+						<div class="price">$8.50</div>
 					</div>
 				</div>
 			</div>
             </div>
             
             <!-- menu Curries -->
-            <div id="lunch" class="tab-content">
+            <div id="curries" class="tab-content">
 			<div class="col-sm-6">
 				<div class="menu-item">
 					<div class="item">
 						<h4>Madras</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<p>A rich, hot & spicy dish cooked with capsicum and coconut milk</p>
 						<div class="price">$17.50</div>
 					</div>
 					<div class="item">
 						<h4>Tikka Masala</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<p>A dish cooked with capsicum, onions and shallots, sauteed with crushed tomatoes, fenugreek and blackpeppers</p>
 						<div class="price">$17.50</div>
 					</div>
 					<div class="item">
 						<h4>Bhuna</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<p>A medium hot dish cooked with tomatoes , capsicum and onion in a thick sauce</p>
 						<div class="price">$17.50</div>
 					</div>
 					<div class="item">
 						<h4>Rogan Josh</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<p>A medium north Indian style dish cooked with fresh spices and garnished with tomatoes, onions and coriander</p>
 						<div class="price">$17.50</div>
 					</div>
                     
@@ -205,17 +208,17 @@
 				<div class="menu-item">
 					<div class="item">
 						<h4>Korma</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<p>A mild dish with ground cashew nuts and fresh cream sauce</p>
 						<div class="price">$17.50</div>
 					</div>
 					<div class="item">
 						<h4>Saagwallia</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<p>A medium hot dish cooked with fresh English spinach, fenugreek, onions and garlic</p>
 						<div class="price">$17.50</div>
 					</div>
 					<div class="item">
 						<h4>Vindaloo</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<p>A fairly hot spicy dish, cooked Goan style, with vinegar and chillies</p>
 						<div class="price">$17.50</div>
 					</div>
 				</div>
@@ -223,27 +226,22 @@
             </div>
             
             <!-- menu chicken -->
-            <div id="dessert" class="tab-content">
+            <div id="chicken" class="tab-content">
 			<div class="col-sm-6">
                 <div class="menu-item">
 					<div class="item">
 						<h4>Butter Chicken</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<p>Famous makhan chicken cooked in the tandoor first and then finished in a semi-dried sauce with tomatoes & onions</p>
 						<div class="price">$17.50</div>
 					</div>
 					<div class="item">
 						<h4>Mango Chicken</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-						<div class="price">$17.50</div>
-					</div>
-					<div class="item">
-						<h4>Gosh Egg-White Omelet</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<p>Boneless chicken in a rich mango sauce with blended onions</p>
 						<div class="price">$17.50</div>
 					</div>
 					<div class="item">
 						<h4>Chicken Curry</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<p>Boneless chicken in a tomato & onion sauce</p>
 						<div class="price">$17.50</div>
 					</div>
 				</div>
@@ -259,7 +257,7 @@
 				<div class="menu-item">
 					<div class="item">
 						<h4>Lamb Do Piaza</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<p>juicy pieces of lamb cooked in a tradional North Indian Style, then sauteed with onions in a thick gravy</p>
 						<div class="price">$17.50</div>
 					</div>
 				</div>
@@ -275,17 +273,17 @@
 				<div class="menu-item">
 					<div class="item">
 						<h4>Beef Palak</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<p>Beef with fresh English spinach which has been pureed, cooked with an assortment of spices, finely chopped nuts & tomatoes</p>
 						<div class="price">$17.50</div>
 					</div>
 					<div class="item">
 						<h4>Bombay Beef</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<p>Diced beef cooked with potatoes, green chilli paste, coconut poweder and a selection of spices</p>
 						<div class="price">$17.50</div>
 					</div>
 					<div class="item">
 						<h4>Shajani Beef Curry</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
+						<p>A beef cury with an almond and creamy texture, more popularly known as boneless beef curry</p>
 						<div class="price">$17.50</div>
 					</div>
 				</div>
@@ -300,23 +298,23 @@
 				<div class="menu-item">
 					<div class="item">
 						<h4>Prawan Hara Paze</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-						<div class="price">$17.50</div>
+						<p>A royal taste of shelled prawans cooked in a freshly ground spiced masala with fresh garlic and spring onion</p>
+						<div class="price">$19.90</div>
 					</div>
 					<div class="item">
 						<h4>Prawan Chatppata</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-						<div class="price">$17.50</div>
+						<p>A favourite from the indo-French colony of pondicherry , cooked with onions, capsicum, tomatoes and aromatic spices</p>
+						<div class="price">$19.90</div>
 					</div>
 					<div class="item">
 						<h4>Prawan Malabari</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-						<div class="price">$17.50</div>
+						<p>Shelled prawans cooked with fresh capsicum, onions, tomatoes and coconut milk</p>
+						<div class="price">$19.90</div>
 					</div>
 					<div class="item">
 						<h4>Goan Fish Curry</h4>
-						<p>Proin lacinia nisl ut ultricies posuere nulla ut</p>
-						<div class="price">$17.50</div>
+						<p>Tender morsels of fish cooked in coconut cream, aniseeds, lemon juice and special Indian herbs</p>
+						<div class="price">$19.90</div>
 					</div>
 				</div>
 			</div>
@@ -354,7 +352,7 @@
 		</div>
 	</div>
 </section>
-
+    
 <!-- Section Testimonials -->
 <section id="testimonials" class="section section-4">
 	<div class="container wow fadeInUp">
