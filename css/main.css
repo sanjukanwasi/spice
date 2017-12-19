@@ -75,8 +75,8 @@ h4 {
 }
 /*Logo*/
 .navbar-brand {
-  padding: 10px 0 0;
-  max-width: 210px;
+  padding: 8px 0 0;
+  max-width: 225px;
   display: inline-block;
   overflow: hidden;
   height: auto;
@@ -138,9 +138,9 @@ h4 {
 /*Footer*/
 footer.copyright {
   padding: 12px 0 0;
-  background: #000;
-  color:#5e5e5e;
-  border-top:1px solid #232323;
+  background: #c50e12;
+  color:#fff;
+  border-top:1px solid #ca2f33;
 }
 footer.copyright p {
   font-size: 14px;
@@ -321,17 +321,36 @@ footer.copyright p {
 }
 .menu-tabs li a {
   letter-spacing: 1px;
-  background: #000;
+  background: #5c9e13;
   border-radius: 4px;
   padding: 8px 20px;
   color: #fff;
   text-decoration: none !important;
   display: block;
+  position:relative;
 }
 .menu-tabs li a:hover, .menu-tabs li.tab-active a {
   background: #c50e12
 }
+.menu-tabs li.tab-active a:after {
+	position: absolute;
+  content: '.';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0px 10px;
+  border-color: #c50e12  transparent transparent transparent;
+  bottom: -5px;
+  left: 50%;
+  margin-left: -10px;
+}
 .tab-content{ display: none;}
+.tab-content h3 {
+	color: #c50e12;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom:2px;
+}
 .tab-content.tab-content-active { display: block;}
 .section-3 h2 span {
   display: block;
@@ -409,7 +428,7 @@ h3 span {
 /* Reservation */
 .input-text { display: block; padding: 10px; border: 1px solid #ccc; width: 100%; margin-bottom: 8px; border-radius: 2px;}
 
-.footer { background:#000; color:#fff; padding:20px 40px; text-align:center;}
+.footer { background:#c50e12; color:#fff; padding:20px 40px; text-align:center;}
 .footer .divider-line { border-color:#fff;}
 /*-------------- Media Query --------------*/
 
