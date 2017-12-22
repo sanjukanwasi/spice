@@ -15,6 +15,19 @@ $('.banner-img').owlCarousel({
     nav:false,
     pagination:true,
 })
+$('#gallery').owlCarousel({
+      items:1,
+     animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
+    singleItem:true,
+    lazyLoad: true,
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    nav:false,
+    pagination:true,
+})
  $('.testimonials').owlCarousel({
      items:1,
      animateOut: 'slideOutRight',
